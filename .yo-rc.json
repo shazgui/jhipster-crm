@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "crm",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "OTI4ZWEwYWIxOTFmMjhlNTQ1MzM4NmNhZDc0Zjg2YWM3ZTJhYWE3YTI4YjU5ZGZmOTM1MWFlMGQ2YzU1Y2MxYWVmNjczM2VkZDc4MDBlM2Y4ZThlN2UwYWZjYmM2NTFhNTE3NjliMzZiZGNjNWMwZmExNWJmZDU3ODQwOTI1MTg=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "shazgui",
+  "repository-name": "jhipster-crm"
+}
